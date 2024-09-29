@@ -5,7 +5,11 @@
     "allowJs": true,
     "strict": true,
     "esModuleInterop": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "typeRoots": ["./types", "./node_modules/lib/types"],
+    "types": ["app-window", "errors", "css-modules", "external-library"]
   },
   "include": [
     "src"
